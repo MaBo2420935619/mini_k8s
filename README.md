@@ -23,7 +23,13 @@ java -jar agent-client-1.0.0.jar --server.port=8081
 java -jar agent-client-1.0.0.jar --server.port=8082
 ```
 
-浏览器访问 **http://localhost:8080** ，账号 `admin` / 密码 `admin123`，在"节点管理"页看到 2 个在线节点即部署完成。
+浏览器访问 **http://localhost:8080** ，
+
+账号 `admin` / 密码  需要在启动的控制台查看  
+
+![img.png](img.png)
+
+在"节点管理"页看到 2 个在线节点即部署完成。
 
 > 支持部署类型：Java 应用（`.jar`） / 前端静态文件（`.zip`）
 
